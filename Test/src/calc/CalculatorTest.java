@@ -8,12 +8,14 @@ class CalculatorTest {
 
     @Test
     void testAdd() {
-        fail("まだ実装されていません");
+        Calculator calculator = new Calculator();
+        assertEquals(5, calculator.add(2, 3));
     }
 
     @Test
     void testSubtract() {
-        fail("まだ実装されていません");
+        Calculator calculator = new Calculator();
+        assertEquals(-1, calculator.subtract(2, 3));
     }
 
 }
